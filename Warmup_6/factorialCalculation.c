@@ -15,7 +15,7 @@ int factorial(int num){
 }
 
 
-int main(int argc, int **argv){
+int main(int argc, char **argv){
     int number = 8;
 
     printf("The factoral of %d is %d\n", number, factorial(number));
